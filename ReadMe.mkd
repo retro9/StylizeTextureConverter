@@ -1,0 +1,22 @@
+# StylizeTextureConverter
+
+## 说明
+ #### -使用说明在根目录中的ConverterUserGuid.png中。
+
+
+## 注意
+ 
+ #### -转换器可以转换diffuse以及normal map，转换纹理时要注意设置Format，根据需要设置格式。
+ 
+ #### -Diffuse map设置为RTF RGBA8 SRGB，normal map设置为RTF RGBA8。
+
+ #### -以及对应的压缩模式，diffuse设置为Default(DXT1/5,BC1/3 on DX11).Normal map设置为Normalmap(DXT5,BC5 on DX11).
+
+ #### -注意设置导出路径path以及命名。
+
+
+## 预设
+
+ #### 测试后diffuse map适合设置更大的radius，我平时用到32.0就够了。
+ 
+ #### Normal法线图radius用到16.0就差不多了。
